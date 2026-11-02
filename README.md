@@ -2,9 +2,6 @@
 
 An interactive web application for experimenting with large language models (LLMs). This playground allows you to interact with GPT-2 and Qwen models, adjust decoding strategies, and explore how different parameters affect text generation.
 
-## 🚀 Live Demo
-
-**Try it now:** [https://llm-playground-wcetd6cughskwjruzprbgp.streamlit.app/](https://llm-playground-wcetd6cughskwjruzprbgp.streamlit.app/)
 
 ## Features
 
@@ -122,14 +119,6 @@ This application is designed to be deployed on Streamlit Community Cloud for fre
 - Try using GPT-2 instead of Qwen if memory is limited
 - On Streamlit Cloud, the free tier should handle these models
 
-### Generation Errors
-- Check that your prompt is not too long (keep under 1000 characters)
-- Ensure all parameters are within valid ranges
-- Try a simpler prompt if generation fails
-
-## License
-
-This project is open source and available for educational and portfolio purposes.
 
 ## Acknowledgments
 
