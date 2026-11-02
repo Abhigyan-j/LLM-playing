@@ -50,24 +50,6 @@ The application will open in your browser at `http://localhost:8501`.
 
 This application is designed to be deployed on Streamlit Community Cloud for free.
 
-### Steps:
-
-1. **Push your code to GitHub** (if not already done):
-   - Ensure all files are committed and pushed to your repository
-
-2. **Deploy on Streamlit Community Cloud**:
-   - Navigate to [https://share.streamlit.io](https://share.streamlit.io)
-   - Sign in with your GitHub account
-   - Click "New app"
-   - Select your repository: `llm-playground`
-   - Branch: `main`
-   - Main file: `app.py`
-   - Click "Deploy"
-
-3. **Access your app**:
-   - Your app will be available at your unique Streamlit subdomain
-   - **Live Demo:** [https://llm-playground-wcetd6cughskwjruzprbgp.streamlit.app/](https://llm-playground-wcetd6cughskwjruzprbgp.streamlit.app/)
-   - The app will automatically update whenever you push changes to the main branch
 
 ### Notes for Deployment
 
@@ -107,22 +89,5 @@ This application is designed to be deployed on Streamlit Community Cloud for fre
 - Text generation speed depends on model size and hardware
 - On Streamlit Community Cloud free tier, generation may take 5-15 seconds per request
 
-## Troubleshooting
 
-### Model Download Issues
-- Ensure you have a stable internet connection
-- Check that Hugging Face is accessible from your location
-- Models are cached locally after first download
-
-### Memory Errors
-- Reduce max_tokens if you encounter memory issues
-- Try using GPT-2 instead of Qwen if memory is limited
-- On Streamlit Cloud, the free tier should handle these models
-
-
-## Acknowledgments
-
-- Built using [Streamlit](https://streamlit.io/)
-- Models provided by [Hugging Face](https://huggingface.co/)
-- Based on educational content from AI Engineering Course
 
