@@ -18,24 +18,7 @@ An interactive web application for experimenting with large language models (LLM
 - Python 3.8-3.11 (Python 3.11 recommended)
 - pip or conda package manager
 
-### Installation
 
-1. Clone this repository:
-```bash
-git clone https://github.com/nicolairobles/llm-playground.git
-cd llm-playground
-```
-
-2. Create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
 
 ### Running the Application
 
