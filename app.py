@@ -221,7 +221,4 @@ st.markdown("""
 - **Top-k/Top-p**: More creative and diverse outputs.
 - **Temperature**: Lower (0.1-0.5) for focused outputs, higher (1.0-2.0) for creative outputs.
 
----
-**🔗 [View on GitHub](https://github.com/nicolairobles/llm-playground)**
-""")
 
